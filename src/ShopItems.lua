@@ -9,6 +9,7 @@ local shopItems = {
         level = "Super",
         cgems = 1000,
         icon = "C",
+         time = 10e3,
       },
       Phoenix = {
         of = 'Fire',
@@ -19,6 +20,7 @@ local shopItems = {
         level = "Super",
         cgems = 1700,--
         icon = "P",
+         time = 10e4,
       },
       Balls = {
         of = 'Fire', -- Tipo agua
@@ -29,6 +31,7 @@ local shopItems = {
         level = "Middle",
         cgems = 150, -- Moedas necess
         icon = "B",
+        time = 10e1,
      },
    },
    [2] = {
@@ -41,6 +44,7 @@ local shopItems = {
         level = "Weak",
         cgems = 90, -- Moedas necessárias para compra
         icon = "S",
+        time = 10e3,
       },
       Teleport = {
         of = 'Air',
@@ -51,6 +55,7 @@ local shopItems = {
         level = "Super",
         cgems = 2000, --
         icon = "Tp",
+        time = 10e4,
       },
    Trap = {
         of = 'Earth',
@@ -73,6 +78,7 @@ local shopItems = {
         level = "Weak",
         cgems = 90, -- Moedas necessárias para compra
         icon = "S",
+        time = 10e2
       },
 
   },
